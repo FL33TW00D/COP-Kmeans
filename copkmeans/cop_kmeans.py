@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import random
+random.seed(42)
 
 def cop_kmeans(dataset, k, ml=[], cl=[],
                initialization='kmpp',
